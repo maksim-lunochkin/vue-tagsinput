@@ -76,7 +76,7 @@
 	
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-	__vue_options__._scopeId = "data-v-2a0762c6"
+	__vue_options__._scopeId = "data-v-59d7d9ea"
 	
 	module.exports = __vue_exports__
 
@@ -97,8 +97,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-2a0762c6&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./input.vue", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-2a0762c6&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./input.vue");
+			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-59d7d9ea&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./input.vue", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-59d7d9ea&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./input.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -116,7 +116,7 @@
 	
 	
 	// module
-	exports.push([module.id, "\n.tags-input[data-v-2a0762c6] {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  flex-wrap: wrap;\n  box-shadow: 0 0 0.15rem rgba(0, 0, 0, 0.3);\n  font-size: 0.75rem;\n  padding: 0.1rem 0\n}\n.placeholder[data-v-2a0762c6] {\n  display: inline-block;\n  color: #A9A9A9;\n  line-height: 2em;\n  white-space: nowrap;\n}\n", ""]);
+	exports.push([module.id, "\n.tags-input[data-v-59d7d9ea] {\n  display: flex;\n  flex-direction: row;\n  align-items: center;\n  flex-wrap: wrap;\n  box-shadow: 0 0 0.15rem rgba(0, 0, 0, 0.3);\n  font-size: 0.75rem;\n  padding: 0.1rem 0\n}\n.placeholder[data-v-59d7d9ea] {\n  display: inline-block;\n  color: #A9A9A9;\n  line-height: 2em;\n  white-space: nowrap;\n}\n", ""]);
 	
 	// exports
 
@@ -587,7 +587,8 @@
 	  LEFT: 37,
 	  RIGHT: 39,
 	  TAB: 9,
-	  BACKSPACE: 8
+	  BACKSPACE: 8,
+	  ENTER: 13
 	};
 	
 	var klass = exports.klass = {
@@ -626,7 +627,7 @@
 	
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-	__vue_options__._scopeId = "data-v-34316b96"
+	__vue_options__._scopeId = "data-v-2ac7691b"
 	
 	module.exports = __vue_exports__
 
@@ -647,8 +648,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-34316b96&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./tag.vue", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-34316b96&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./tag.vue");
+			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-2ac7691b&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./tag.vue", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-2ac7691b&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./tag.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -666,7 +667,7 @@
 	
 	
 	// module
-	exports.push([module.id, "\n.tag[data-v-34316b96] {\n  border: 1px solid #e0e0e0;\n  border-radius: 3px;\n  color: #858585;\n  font-weight: normal;\n  font-size: 1.1em;\n  padding: 0 0.5ch;\n}\n.tag[invalid][data-v-34316b96] {\n  border: 1px solid red;\n}\n.hl-click[data-v-34316b96] {\n  cursor: pointer;\n}\n.hl-click[data-v-34316b96]::after {\n  color: rgba(0, 0, 0, 0.6);\n  content: \"\\2A2F\";\n  padding-left: 1px;\n}\n.hl-click[data-v-34316b96]:hover:active {\n  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\n}\n", ""]);
+	exports.push([module.id, "\n.tag[data-v-2ac7691b] {\n  border: 1px solid #e0e0e0;\n  border-radius: 3px;\n  color: #858585;\n  font-weight: normal;\n  font-size: 1.1em;\n  padding: 0 0.5ch;\n}\n.tag[invalid][data-v-2ac7691b] {\n  border: 1px solid red;\n}\n.hl-click[data-v-2ac7691b] {\n  cursor: pointer;\n}\n.hl-click[data-v-2ac7691b]::after {\n  color: rgba(0, 0, 0, 0.6);\n  content: \"\\2A2F\";\n  padding-left: 1px;\n}\n.hl-click[data-v-2ac7691b]:hover:active {\n  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);\n}\n", ""]);
 	
 	// exports
 
@@ -736,13 +737,13 @@
 /* 13 */
 /***/ function(module, exports) {
 
-	module.exports={render:function (){var _vm=this;
-	  return _vm._h('span', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+	  return _c('span', {
 	    class: _vm.klass.tag,
 	    attrs: {
 	      "invalid": _vm.invalid
 	    }
-	  }, ["\n  " + _vm._s(_vm.text) + "\n  ", (_vm.remove) ? _vm._h('span', {
+	  }, [_vm._v("\n  " + _vm._s(_vm.text) + "\n  "), (_vm.remove) ? _c('span', {
 	    staticClass: "hl-click",
 	    on: {
 	      "click": _vm.remove
@@ -778,7 +779,7 @@
 	
 	__vue_options__.render = __vue_template__.render
 	__vue_options__.staticRenderFns = __vue_template__.staticRenderFns
-	__vue_options__._scopeId = "data-v-72f843ab"
+	__vue_options__._scopeId = "data-v-28fcc7f4"
 	
 	module.exports = __vue_exports__
 
@@ -799,8 +800,8 @@
 	if(false) {
 		// When the styles change, update the <style> tags
 		if(!content.locals) {
-			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-72f843ab&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./typing.vue", function() {
-				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-72f843ab&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./typing.vue");
+			module.hot.accept("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-28fcc7f4&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./typing.vue", function() {
+				var newContent = require("!!./../node_modules/css-loader/index.js!./../node_modules/vue-loader/lib/style-rewriter.js?id=data-v-28fcc7f4&scoped=true!./../node_modules/vue-loader/lib/selector.js?type=styles&index=0!./typing.vue");
 				if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 				update(newContent);
 			});
@@ -818,7 +819,7 @@
 	
 	
 	// module
-	exports.push([module.id, "\ninput.input[data-v-72f843ab] {\n  outline: none;\n  box-shadow: none;\n  border: none;\n  background-color: transparent;\n  font-family: monospace;\n  padding: 0 0.5ch;\n  line-height: 2em;\n}\n.gap[data-v-72f843ab]:last-child {\n  flex: 1;\n}\n", ""]);
+	exports.push([module.id, "\ninput.input[data-v-28fcc7f4] {\n  outline: none;\n  box-shadow: none;\n  border: none;\n  background-color: transparent;\n  font-family: monospace;\n  padding: 0 0.5ch;\n  line-height: 2em;\n}\n.gap[data-v-28fcc7f4]:last-child {\n  flex: 1;\n}\n", ""]);
 	
 	// exports
 
@@ -942,7 +943,7 @@
 	        var index = this.index - 1;
 	        this.handleRemove(index);
 	        this.activeOther(index);
-	      } else if (key === _lib.KEY_CODE.TAB) {
+	      } else if (key === _lib.KEY_CODE.TAB || key === _lib.KEY_CODE.ENTER) {
 	        (function () {
 	          var index = _this2.index + 1;
 	          _this2.addTag() && _this2.$nextTick(function () {
@@ -960,15 +961,15 @@
 /* 18 */
 /***/ function(module, exports) {
 
-	module.exports={render:function (){var _vm=this;
-	  return _vm._h('span', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+	  return _c('span', {
 	    class: _vm.klass.gap,
 	    on: {
 	      "click": function($event) {
 	        _vm.$emit('click')
 	      }
 	    }
-	  }, [_vm._h('input', {
+	  }, [_c('input', {
 	    directives: [{
 	      name: "model",
 	      rawName: "v-model",
@@ -995,18 +996,18 @@
 	        _vm.text = $event.target.value
 	      }
 	    }
-	  }), " ", (!_vm.typing) ? _vm._t("default") : _vm._e()])
+	  }), _vm._v(" "), (!_vm.typing) ? _vm._t("default") : _vm._e()], true)
 	},staticRenderFns: []}
 
 /***/ },
 /* 19 */
 /***/ function(module, exports) {
 
-	module.exports={render:function (){var _vm=this;
-	  return _vm._h('div', {
+	module.exports={render:function (){var _vm=this;var _h=_vm.$createElement;var _c=_vm._c;
+	  return _c('div', {
 	    class: _vm.klass.container
 	  }, [_vm._l((_vm.normalizeTagItems), function(item, index) {
-	    return [_vm._h('typing', {
+	    return [_c('typing', {
 	      attrs: {
 	        "index": index,
 	        "typing": index === _vm.typingIndex,
@@ -1022,7 +1023,7 @@
 	          _vm.blur(index)
 	        }
 	      }
-	    }, [_vm._h('span', {
+	    }, [_c('span', {
 	      directives: [{
 	        name: "show",
 	        rawName: "v-show",
@@ -1030,14 +1031,14 @@
 	        expression: "index === length && showPlaceholder"
 	      }],
 	      class: _vm.klass.placeholder
-	    }, [_vm._s(_vm.placeholder)])]), " ", (index !== _vm.length) ? _vm._h('tag', {
+	    }, [_vm._v(_vm._s(_vm.placeholder))])]), _vm._v(" "), (index !== _vm.length) ? _c('tag', {
 	      attrs: {
 	        "text": item.text,
 	        "remove": _vm.getRemoveHandle(item, index),
 	        "invalid": item.invalid
 	      }
 	    }) : _vm._e()]
-	  })])
+	  })], true)
 	},staticRenderFns: []}
 
 /***/ }

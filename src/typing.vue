@@ -99,7 +99,7 @@ export default {
         let index = this.index - 1
         this.handleRemove(index)
         this.activeOther(index)
-      } else if (key === KEY_CODE.TAB) {
+      } else if (key === KEY_CODE.TAB || key === KEY_CODE.ENTER) {
         let index = this.index + 1
         this.addTag() && this.$nextTick(() => this.activeOther(index))
       } else native = true
